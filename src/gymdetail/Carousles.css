@@ -1,0 +1,129 @@
+.group-classes-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #151212; /* Black background */
+    color: #fff; /* White text */
+    padding: 3rem;
+  }
+  
+  /* Left Section */
+  .group-text {
+    flex: 0.7;
+    padding: 1rem;
+  }
+  
+  .tag {
+    background-color: #2ecc71; /* Green tag */
+    color: #140f0f;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  /* Right Section (Image) */
+  .group-image {
+    flex: 0.4;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .group-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .group-classes-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .group-image img {
+      margin-top: 1.5rem;
+    }
+  }
+  .group-classes-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1d1919; /* Black background */
+    color: #fff; /* White text */
+    padding: 2rem;
+  }
+  
+  /* Reverse Layout (Image on Left) */
+  .reverse-layout {
+    flex-direction: row-reverse; /* Reverse the order of items */
+  }
+  
+  /* Left Section (Image) */
+  .group-image1 {
+    flex: 0.4;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .group-image1 img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  /* Right Section (Content) */
+  .group-text1 {
+    flex: 0.7;
+    padding: 1rem;
+  }
+  
+  .tag1 {
+    background-color: #2ecc71; /* Green tag */
+    color: #000;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+  
+  .features1 {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features1 li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .group-classes-container {
+      flex-direction: column; /* Stack vertically on small screens */
+      text-align: center;
+    }
+  
+    .group-image1 img {
+      margin-bottom: 1.5rem;
+    }
+  }

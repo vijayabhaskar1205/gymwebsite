@@ -1,0 +1,104 @@
+.detail{
+    margin-top: 10px;
+    margin-left: 10px;
+   
+  }
+  .bannerr
+  {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    background-image: linear-gradient(rgba(197, 150, 150, 0.6),rgba(65, 59, 59, 0.6)), url('./gymimage/g6.jpeg');
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 10px black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  #map{
+    display: flex;
+    padding: 10px 40px;
+    justify-content: space-between;
+    margin-top: 10px;
+  
+  
+  }
+  .maps{
+    margin-top: 10px;
+    margin-right: 10px;
+    
+  }
+  #map .detail{ 
+     width: 40%; 
+   } 
+   #map .maps{ 
+     width: 60%; 
+   } 
+  #form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #e1e1e1;
+  }
+  #form-details .cd{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #form-details .cd span{
+    padding-bottom: 5px;
+  }
+  #form-details .cd input,
+  #form-details .cd textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: #f6f6f6;
+    border: 1px solid #e1e1e1;
+  }
+  #form-details .cd button{
+    background-color: #836f85;
+    color: #fff;
+    margin-left: 450px;
+  }
+  #form-details .people div{
+  padding-bottom: 25px;
+  }
+  #form-details .people div img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  #form-details .people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+  }
+  #form-details .people div span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+  
+    color: #000;
+  }
+  
+  
+  
+  @media (max-width:799px){
+  
+  
+  /*contact page*/
+  #form-details{
+    padding: 40px;
+  }
+  #form-details .cd{
+    width: 50%;
+  }
+  }
+  

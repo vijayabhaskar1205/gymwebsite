@@ -1,0 +1,28 @@
+.vv {
+    width: 100%;
+    height: 100vh; /* Makes the container take up the full height of the viewport */
+    background-image:url('./gymimage/g4.jpeg');
+    background-size: cover; /* Ensures the background image covers the entire container */
+    background-position: center; /* Centers the background image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+   
+   
+    
+  }
+  
+  .form-container {
+    background-color:  rgb(231, 228, 223); /* Optional: Add a semi-transparent white background to the form container */
+    padding: 25px;
+    border-radius: 50px;
+    height:65vh;
+  }
+  .form-label {
+    color: rgb(0, 0, 0);
+  }
+  .form-control
+  {
+    color: black
+  }

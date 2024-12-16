@@ -1,0 +1,164 @@
+:root {
+    --primary-color: #626d67;
+    --secondary-color: #34495e;
+    --background-color: #d7d1d1;
+    --accent-color: #1abc9c;
+    --font-family: 'Roboto', sans-serif;
+    --heading-font-size: 2em;
+    --subheading-font-size: 1.5em;
+    --text-font-size: 1.1em;
+    --button-bg-color: #27ae60;
+    --button-hover-bg-color: #2ecc71;
+  }
+  
+  
+  body {
+    font-family: var(--font-family);
+    background-color: #000000;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .diet-plan {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .diet-plan h1 {
+    font-size: 2.5em;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .phase {
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .phase h2 {
+    font-size: var(--heading-font-size);
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .phase p {
+    font-size: var(--text-font-size);
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  h3 {
+    font-size: var(--subheading-font-size);
+    margin-top: 20px;
+    color: var(--secondary-color);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 16px;
+    text-align: left;
+    transition: background-color 0.3s ease;
+  }
+  
+  th {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+  }
+  
+  td {
+    background-color: var(--background-color);
+  }
+  
+  td:hover {
+    background-color: var(--accent-color);
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .diet-plan {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    table {
+      font-size: 0.9em;
+    }
+  
+    .phase h2 {
+      font-size: 1.8em;
+    }
+  
+    .phase p {
+      font-size: 1em;
+    }
+  }
+  
+  
+  button {
+    background-color: var(--button-bg-color);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: var(--button-hover-bg-color);
+    transform: translateY(-2px);
+  }
+  
+  button:active {
+    transform: translateY(1px);
+  }
+  
+
+  section {
+    margin-bottom: 40px;
+  }
+  
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .diet-plan {
+    animation: fadeIn 1s ease-out;
+  }
+  
